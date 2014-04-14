@@ -11,7 +11,7 @@ class Database {
     protected $connector;
     public  function Connect(){
         if (is_readable(SITE_PATH.'system/application/config/configuration.php')){
-            require_once(SITE_PATH.'system/application/config/configuration.php');
+            require_once(SITE_PATH . 'system/application/config/configuration.php');
           $this->connector = mysql_connect(HOST,USER_DB,PASS_DB);
             mysql_select_db(CURRENT_DB);
             return 'I';
