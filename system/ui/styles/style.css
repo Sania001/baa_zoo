@@ -4,18 +4,35 @@ body{
 }
 #container{
     position: relative;
-    width: 1024px;
- /*   height: 825px;*/
     height: auto;
     margin: 0 auto;
-    margin-top: 2%;
-    border: 1px solid red;
+    overflow: hidden;
+    min-width: 1200px;
 }
 header{
     position: relative;
     width: 100%;
+    height: auto;
+    background-color: #179ec0;
+}
+#h_part{
+    margin: 0 auto;
+    position: relative;
     height: 225px;
-    border: 1px solid red;
+    width: 1200px;
+    border: 1px solid blue;
+}
+#h_logo{
+    float: left;
+    padding-right: 20px;
+}
+#h_logo_comp p{
+    display: block;
+    padding: 15px 0 0 0;
+}
+#h_logo_comp{
+    position: relative;
+    margin: 25px 0 0 75px;
 }
 footer{
     position: relative;
@@ -25,13 +42,14 @@ footer{
 }
 #content{
     position: relative;
-  /*  border: 1px solid green;*/
     width: 100%;
     height: auto;
 }
 #m_part{
-    width: 1024px;
-    height: auto;
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    border: 1px solid red;
 }
 /*   END MAIN TEMPLATE*/
 #map{

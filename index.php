@@ -21,7 +21,6 @@ require_once(SITE_PATH.'system/controllers/errorController.php');
 
 try{
     Router::route(new Request());
-    echo 1;
 }catch (Exception $e){
     $controller = new errorController();
     $controller->error($e->getMessage());
