@@ -14,13 +14,14 @@ header{
     width: 100%;
     height: auto;
     background-color: #179ec0;
+    background: url("../images/m_f.png") repeat;
 }
 #h_part{
     margin: 0 auto;
     position: relative;
-    height: 225px;
+    height: 170px;
     width: 1200px;
-    border: 1px solid blue;
+    background: url("../images/m_top_f.png");
 }
 #h_logo{
     float: left;
@@ -28,11 +29,17 @@ header{
 }
 #h_logo_comp p{
     display: block;
-    padding: 15px 0 0 0;
+    padding: 45px 0 0 0;
+    font-family: Myriad Pro;
+    color: #034d8d;
+    font-size: 20px;
+    margin-top: 0px;
 }
 #h_logo_comp{
     position: relative;
-    margin: 25px 0 0 75px;
+    padding: 15px 0 0 30px;
+    width: 420px;
+    float: left;
 }
 footer{
     position: relative;
@@ -52,6 +59,7 @@ footer{
     border: 1px solid red;
 }
 /*   END MAIN TEMPLATE*/
+/*
 #map{
     position: absolute;
     width: 750px;
@@ -91,18 +99,87 @@ footer{
     width: 175px;
     height: 150px;
 }
-.sd2{
+*/
+/*.sd2{
     position: absolute;
     padding: 10px 0 0 20px;
     margin-left: 180px;
     width: 375px;
   /*  background-color: #939393;*/
-}
+/*}
+
 .sd2 table td{
     padding-left: 5px;
   /*  border: 3px solid white;*/
-}
+/*}
+/*
 .hidden_det{
     position: relative;
     height: 150px;
+}*/
+#h_links{
+    position: relative;
+    font-family: Myriad Pro;
+    font-size: 14px;
+    float: left;
+    margin: 125px 0 0 -250px;
+}
+#h_links a{
+    padding: 0 15px 0 0;
+    color: #ffffff;
+}
+#h_contacts{
+    float: left;
+    width: 450px;
+    margin: 10px 0 0 25px;
+}
+
+.clear{
+    clear:both;
+}
+#h_time{
+    float: left;
+    padding: 0 50px 0 50px;
+    font-family: Myriad Pro;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: right;
+}
+#h_mobile{
+    font-family: Myriad Pro;
+    color: #1bacd0;
+    font-size: 17px;
+    margin: 5px 0 0 0;
+}
+#h_mobile span{
+    font-size: 19px;
+}
+#h_soc{
+    float: left;
+    margin: 30px 0 0 -175px;
+}
+#h_soc img{
+    cursor: pointer;
+}
+#h_search{
+    background: url("../images/m_h_search_box.png");
+    background-repeat: no-repeat;
+    width: 145px;
+    height: 24px;
+    font-family: Myriad Pro;
+    font-size: 12px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 0 0 0 25px;
+    margin: 35px 0 0 -15px;
+}
+#h_search_icon{
+    margin: -22px 0 0 215px;
+    display: block;
+}
+#h_search_but{
+    margin: -22px 0 0 390px;
+    display: block;
+    cursor: pointer;
 }

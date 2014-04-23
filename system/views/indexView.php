@@ -12,28 +12,52 @@
 
         </head>
 <body>
-    <section id="container">
+    <div id="container">
     <header>
-        <section>
-            <section id="h_part">
-                <section id="h_logo_comp">
-                    <img id="h_logo" src="./system/ui/images/logo.png">
+            <div id="h_part">
+                <div id="h_logo_comp">
+                    <img id="h_logo" src="./system/ui/images/m_h_logo.png">
                     <p>Ветиринарный центр <br/> Доктора Базылевского А.А.</p>
-                </section>
-
-            </section>
-        </section>
+                </div>
+                <div id="h_links">
+                    <a href="#">Витебск, пр-т Победы, 61, корп. 2</a>
+                    <a href="#">Вызов врача на дом</a>
+                    <a href="#">Записаться на прием</a>
+                </div>
+                <div id="h_contacts">
+                    <p id="h_time">
+                        Время работы:<br/>
+                        Пн–вс: 09:00–21:00<br/>
+                        (Без выходных)
+                    </p>
+                    <p id="h_mobile">
+                        +375 (212) <span>27-61-65</span><br/>
+                        +375 (29) <span>696-20-60</span><br/>
+                        +375 (33) <span>696-20-60</span>
+                    </p>
+                            <div id="h_soc">
+                                <img src="./system/ui/images/m_h_twit.png">
+                                <img src="./system/ui/images/m_h_face.png">
+                                <img src="./system/ui/images/m_h_gplus.png">
+                            </div>
+                    <form>
+                        <input id="h_search" type="text" placeholder="Поиск" />
+                        <img id="h_search_icon" src="./system/ui/images/m_h_search_icon.png" />
+                        <input id="h_search_but" type="submit" value="GO" />
+                    </form>
+                </div>
+            </div>
     </header>
-        <section id="content">
-            <section id="m_part">
-                <section>
+    <section id="content">
+            <div id="m_part">
+                <div>
 
-                </section>
-            </section>
-        </section>
+                </div>
+            </div>
+    </section>
     <article></article>
     <footer></footer>
 
-    </section>
+    </div>
 </body>
 </html>
